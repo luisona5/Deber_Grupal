@@ -25,7 +25,20 @@ public class Main {
             area = base * altura;
             System.out.println("El area del trinagulo es: " + area);
 
+        }if (n == 2) {
+
+            Double base;
+            Double altura;
+            Double area;
+            System.out.println("ingrese la base: ");
+            base = sc.nextDouble();
+            System.out.println("ingrese la altura: ");
+            altura = sc.nextDouble();
+
+            area = (base * altura) / 2;
+            System.out.println("El area del trinagulo es: " + area);
         }
+
 
 
 
