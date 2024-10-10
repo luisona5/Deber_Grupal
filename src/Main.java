@@ -38,10 +38,11 @@ public class Main {
             area = (base * altura) / 2;
             System.out.println("El area del trinagulo es: " + area);
         }
+//area del circulo
+        System.out.println("Ingrese el radio del circulo es: ");
+        double radio=sc.nextDouble();
+        double areacirculo= 3.141592653 * Math.pow(radio,2);
+        System.out.println("El area del circulo es: " + areacirculo);
 
-
-
-
-
-    }
+}
 }
