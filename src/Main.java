@@ -12,6 +12,21 @@ public class Main {
         System.out.println("3) Circulo");
         System.out.println("seleccione una opcion: ");
         n = sc.nextInt();
+        if (n == 1) {
+
+            Double base;
+            Double altura;
+            Double area;
+            System.out.println("\n----------Area del Cuadrado-----------");
+            System.out.println("ingrese la base: ");
+            base = sc.nextDouble();
+            System.out.println("ingrese la altura: ");
+            altura = sc.nextDouble();
+            area = base * altura;
+            System.out.println("El area del trinagulo es: " + area);
+
+        }
+
 
     }
 }
